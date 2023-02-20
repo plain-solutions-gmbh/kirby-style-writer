@@ -2,12 +2,12 @@
 
 use Microman\Stylewriter;
 
-return function ($cw_render) {
+return function ($sw_render) {
 
     //For Debug:
-    //$cw_render = true;
+    //$sw_render = true;
 
     return [
-        'cw' => new Stylewriter(isset($cw_render))
+        'cw' => new Stylewriter(isset($sw_render))
     ];
 };

@@ -4,7 +4,7 @@ This Kirby Plugin grabs the given styling values and save it into a CSS file on 
 
 > This is a experimental Kirby Plugin. Use it on your own risk!
 >
-> The initial of creating this plugin underling [this thred](https://forum.getkirby.com/t/render-site-in-the-update-after-hook/27882/26)
+> The initial of creating this plugin underling [this topic](https://forum.getkirby.com/t/render-site-in-the-update-after-hook/27882/26)
 
 ## Bluepring integration
 
@@ -28,15 +28,15 @@ fields:
 <html>
   <head>
     
-    <?= css($cw->getCSS()) ?>
+    <?= css($sw->getCSS()) ?>
 
   </head>
   <body>
 
     <h1 class="mytitle">My Title</h1>
-    <?php $cw->style('.mytitle', [site()->font_size(), site()->color()]) ?>
+    <?php $sw->style('.mytitle', [site()->font_size(), site()->color()]) ?>
 
-    <?php $cw->seal() ?>
+    <?php $sw->seal() ?>
 
   </body>
 
