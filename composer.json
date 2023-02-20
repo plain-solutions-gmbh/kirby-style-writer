@@ -1,0 +1,14 @@
+{
+    "name": "microman/stylewriter",
+    "description": "This plugin generates CSS files from given field styles",
+    "license": "MIT",
+    "type": "kirby-plugin",
+    "version": "1.0.0",
+    "authors": [{
+        "name": "Roman Gsponer",
+        "email": "kirby@microman.ch"
+    }],
+    "config": {
+        "optimize-autoloader": true
+    }
+}
