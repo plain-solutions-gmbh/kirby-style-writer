@@ -11,7 +11,7 @@ Kirby::plugin('microman/stylewriter', [
 	'hooks' => [
 		'page.update:after' => function ($newPage, $oldPage) {
 		
-			$render = $newPage->render(['cw_render' => true]);
+			$render = $newPage->render(['sw_render' => true]);
 
 
         },
